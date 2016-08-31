@@ -1,0 +1,34 @@
+{
+  "name": "dm12router",
+  "version": "1.0.0",
+  "description": "- Set up the router App.js - Create a route for each of the nine just kidding eight planets - Include Pluto - Each Route renders an image of that planet - Assign a Star Wars character to each planet - Nest a router under the planet `/jupiter/character` - On that planet's route get the Star War character's info",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-router": "^2.7.0",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "react",
+      "es2015"
+    ]
+  }
+}

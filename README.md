@@ -1,0 +1,7 @@
+- Set up the router App.js
+- Create a route for each of the nine just kidding eight planets
+- Include Pluto
+- Each Route renders an image of that planet
+- Assign a Star Wars character to each planet
+- Nest a router under the planet `/jupiter/character`
+- On that planet's route get the Star War character's info
